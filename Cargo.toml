@@ -6,7 +6,7 @@ edition = "2018"
 
 [lib]
 name = "reqwest_actix_stream"
-crate-type = ["rlib"]
+path = "src/lib.rs"
 
 [dependencies]
 actix-web = "2.0"
